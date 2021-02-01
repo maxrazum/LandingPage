@@ -45,8 +45,17 @@ for (section of sections) {
 }
 
 document.querySelector('.navbar__menu').appendChild(fragment);
-// Add class 'active' to section when near top of viewport
 
+// Add class 'active' to section when near top of viewport
+document.addEventListener('scroll', function scrolling() {
+    sections.forEach((section) => {
+        if (section.offsetTop <= window.scrollY + 200 && section.offsetTop + section.offsetHeight - 200 > window.scrollY) {
+            section.classList.add('active-section');
+        } else {
+            section.classList.remove('active-section');
+        }
+    });
+});
 
 // Scroll to anchor ID using scrollTO event
 
