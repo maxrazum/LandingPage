@@ -58,7 +58,18 @@ document.addEventListener('scroll', function scrolling() {
 });
 
 // Scroll to anchor ID using scrollTO event
+const navBar = document.querySelector('.navbar__menu');
 
+function scroll(event) {
+    event.preventDefault();
+    let section = document.querySelector(event.target.hash);
+    scrollTo( {
+        top: section.offsetTop - 100,
+        behavior: 'smooth'
+    });
+}
+
+navBar.addEventListener('click', scroll);
 
 /**
  * End Main Functions
