@@ -2,7 +2,7 @@
 
 ## Project two:
 
-* Landing page
+* Landing page [LINK] (https://maxrazum.github.io/Landing-Page/index.html)
 
 ## Original requirements:
 
