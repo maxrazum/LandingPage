@@ -1,9 +1,11 @@
-# Front End Web Developer Nanodegree program
+# Landing page
+* This project is a multi-section landing page, with a dynamically updating navigational menu based on the amount of content that is added to the page.
 
-## Project two:
+### LANGUAGES
 
-* Landing page
+    - Javascript
+    - HTML
+    - SCSS
 
-## Original requirements:
-
-* This project requires you to build a multi-section landing page, with a dynamically updating navigational menu based on the amount of content that is added to the page.
+## Preview
+<img src="assets/gif/action.gif" width="100%" alt="webApp in action">
